@@ -78,10 +78,9 @@
     NSLog(@"call-back");
     NSLog(@"call-back");
     NSLog(@"call-back");
-    NSLog(@"call-back");
-    NSLog(@"call-back");
-    NSLog(@"call-back");
-    NSLog(@"call-back");
+    for (int i = 0; i < 3; i++) {
+        NSLog(@"+++++++%d",i);
+    }
 }
 
 - (void)test
