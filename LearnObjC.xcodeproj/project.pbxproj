@@ -15,6 +15,7 @@
 		3A0C20671E69BE4B007FB3FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0C20651E69BE4B007FB3FA /* LaunchScreen.storyboard */; };
 		3A0C20721E69BE4B007FB3FA /* LearnObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0C20711E69BE4B007FB3FA /* LearnObjCTests.m */; };
 		3A0C207D1E69BE4B007FB3FA /* LearnObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0C207C1E69BE4B007FB3FA /* LearnObjCUITests.m */; };
+		3A19DE8B24FF960B003415F1 /* UIView+HYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A19DE8A24FF960B003415F1 /* UIView+HYExtension.m */; };
 		3A1E7AFA20859C4F00CC3818 /* TestLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E7AF920859C4F00CC3818 /* TestLayer.m */; };
 		3A1E7AFD208B9A2C00CC3818 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E7AFC208B9A2C00CC3818 /* Student.m */; };
 		3A379DA31F11131400115617 /* keyPoint.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A379DA21F11131400115617 /* keyPoint.plist */; };
@@ -142,6 +143,8 @@
 		3A0C20781E69BE4B007FB3FA /* LearnObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnObjCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0C207C1E69BE4B007FB3FA /* LearnObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnObjCUITests.m; sourceTree = "<group>"; };
 		3A0C207E1E69BE4B007FB3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A19DE8924FF960B003415F1 /* UIView+HYExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+HYExtension.h"; sourceTree = "<group>"; };
+		3A19DE8A24FF960B003415F1 /* UIView+HYExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+HYExtension.m"; sourceTree = "<group>"; };
 		3A1E7AF820859C4F00CC3818 /* TestLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLayer.h; sourceTree = "<group>"; };
 		3A1E7AF920859C4F00CC3818 /* TestLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLayer.m; sourceTree = "<group>"; };
 		3A1E7AFB208B9A2C00CC3818 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
@@ -404,6 +407,7 @@
 				3A379DAF1F13B7DD00115617 /* MultiTask */,
 				3A379DB01F13B7DD00115617 /* NetworkRelated */,
 				3A379DB11F13B7DD00115617 /* Basement */,
+				3A19DE8C24FF961D003415F1 /* Extension */,
 				3A0C20541E69BE4B007FB3FA /* Supporting Files */,
 			);
 			path = LearnObjC;
@@ -433,6 +437,15 @@
 				3A0C207E1E69BE4B007FB3FA /* Info.plist */,
 			);
 			path = LearnObjCUITests;
+			sourceTree = "<group>";
+		};
+		3A19DE8C24FF961D003415F1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3A19DE8924FF960B003415F1 /* UIView+HYExtension.h */,
+				3A19DE8A24FF960B003415F1 /* UIView+HYExtension.m */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		3A379DA41F13B7DD00115617 /* ImageHandle */ = {
@@ -857,6 +870,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -971,6 +985,7 @@
 				44BDA9541F341A5C004F27AF /* ChartViewController.m in Sources */,
 				44BDA8581F26DE36004F27AF /* AFNetworkReachabilityManager.m in Sources */,
 				3A379DE11F1E5E8600115617 /* NetworkThirdPartyVCtlr.m in Sources */,
+				3A19DE8B24FF960B003415F1 /* UIView+HYExtension.m in Sources */,
 				3A55640E207BA61D0068D397 /* Algorithm.m in Sources */,
 				3A379DB71F1E5ADC00115617 /* RunloopVCtlr.m in Sources */,
 				3A556404205E63810068D397 /* UIImage+ESGIF.m in Sources */,
