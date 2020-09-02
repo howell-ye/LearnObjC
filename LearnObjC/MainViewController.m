@@ -31,7 +31,7 @@
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame =CGRectMake(0, 0, 40, 30);
     [btn addTarget:self action:@selector(onLeftBtnAction:) forControlEvents:UIControlEventTouchUpInside];
-    [btn setTitle:@"测试" forState:UIControlStateNormal];
+    [btn setTitle:@"乱来" forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
 //    [btn setTintColor:[UIColor blueColor]];
     btn.titleLabel.font = [UIFont boldSystemFontOfSize:18];
